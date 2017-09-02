@@ -14,13 +14,20 @@ we try to assess the practicality of a simple CBC test in transplant patients.
   * pip install scipy
   * pip install sklearn
   * pip install pandas
-  * Run using **python classifier.py**
+  * Run using **python classifier.py** and **python classifier-ratio.py**
   * The script randomises the input for training.
   * The small input size and random function stop us from having a consistent accuracy
 
 ##Sample run:
 
     Mihirs-MacBook-Pro:aki-classification-using-dlc mihirwagle$ python classifier.py
+
+        training time: 0.002 s
+        predicting time: 0.0 s
+
+        accuracy = 0.368421052632
+
+    Mihirs-MacBook-Pro:aki-classification-using-dlc mihirwagle$ python classifier-ratio.py
 
         training time: 0.001 s
         predicting time: 0.0 s
@@ -40,6 +47,6 @@ can help to predict whether an instance of AKI is due to rejection, infection or
 
   * Small sample size
   * Retrospective study
-  * Prerenal causes (such as diarrhea) not included.
+  * Pre-renal causes (such as diarrhea) not included.
   * Viral infection group like BKV was too small to include in the study.
   * Subset analysis of T cell not done (*As done in most studies in subclinical ejection*)

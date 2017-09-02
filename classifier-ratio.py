@@ -10,7 +10,7 @@ import pandas as pd
 #df2 = pd.read_csv("trainlabel.csv", header = 0)
 #df3 = pd.read_csv("testfeature.csv", header = 0)
 #df4 = pd.read_csv("testlabel.csv", header = 0)
-df = pd.read_csv("test1.csv", header = 0)
+df = pd.read_csv("test2.csv", header = 0)
 
 X = np.array(df.drop(['Diagnosis of AKI(acute kidney injury)(1-infection,2-rejection,4-Normal subjects,3tac toxicity)'],1))
 y = np.array(df['Diagnosis of AKI(acute kidney injury)(1-infection,2-rejection,4-Normal subjects,3tac toxicity)'])
