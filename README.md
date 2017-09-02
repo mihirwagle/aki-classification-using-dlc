@@ -6,7 +6,7 @@ toxicity. As biopsy and culture reports take at least 2-3 days, we study the pra
 differential leucocyte count to differentiate between these conditions. Though not confirmatory
 we try to assess the practicality of a simple CBC test in transplant patients.
 
-##Using the project on your system
+## Using the project on your system
 
   * Install python 2.x
   * pip install nltk
@@ -18,7 +18,7 @@ we try to assess the practicality of a simple CBC test in transplant patients.
   * The script randomises the input for training.
   * The small input size and random function stop us from having a consistent accuracy
 
-##Sample run:
+## Sample run:
 
     Mihirs-MacBook-Pro:aki-classification-using-dlc mihirwagle$ python classifier.py
 
@@ -34,16 +34,16 @@ we try to assess the practicality of a simple CBC test in transplant patients.
 
         accuracy = 0.631578947368
 
-##Results
+## Results
 
 SVM analysis shows no significant association between total leucocyte count, lymphocyte counts(*L*), neutrophil(*N*) and monocyte (*M*) counts (*per mm3*) and the specified classes. However when the script was run to see association between *N/L* and *N/M* and various classes, we see significant results.
 
-##Conclusion
+## Conclusion
 
 Although not confirmatory, the differential leucocyte count, especially the ratios N/L and N/M,
 can help to predict whether an instance of AKI is due to rejection, infection or drug toxicity.
 
-##Limitations of study
+## Limitations of study
 
   * Small sample size
   * Retrospective study
